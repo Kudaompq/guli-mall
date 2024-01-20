@@ -9,7 +9,8 @@ spring:
     nacos:
       discovery:
         server-addr: 192.168.101.129:8848
-        service: gulimall-coupon
+  application:
+    name: gulimall-coupon                       # 服务名，会显示在nacos上
 mybatis-plus:
   mapper-locations: classpath:/mapper/**/*.xml  # mapper文件位置
   global-config:
